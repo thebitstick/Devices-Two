@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  background-color: #212121;
+  font-family: Lato, sans-serif;
+  color: #FFFFFF;
+}
+
+.site {
+  text-align: center;
+}
+
+.site .title {
+  font-size: 200%;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.unit {
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+  width: 20%;
+  min-width: 300px;
+  vertical-align: middle;
+  margin: 5px;
+  transition: all 0.2s;
+}
+
+.green {
+  background-color: #55CC55;
+  color: #000000;
+}
+
+.green .label {
+  color: #333333;
+}
+
+.silver {
+  background-color: #606060;
+  color: #FFFFFF;
+}
+
+.silver .label {
+  color: #101010;
+}
+
+.white {
+  background-color: #f0f0f0;
+  color: #505050;
+}
+
+.white .label {
+  color: #1D1D1D;
+}
+
+.unit .row:first-child {
+  font-size: 180%;
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+
+.unit .label, .unit .data {
+  display: inline-block;
+}
